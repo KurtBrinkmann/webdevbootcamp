@@ -1,0 +1,247 @@
+
+
+/*https://i.pinimg.com/564x/68/5e/1a/685e1ad82e0718939dd60987fb529aa1.jpg" */
+
+body {
+    background-color: rgb(145, 145, 145);
+}
+
+
+h1 {
+color:black;
+font-weight: normal;
+margin-left: 925px;
+display: inline;
+line-height: 80%;
+
+
+}
+
+
+h1 {
+    width: fit-content;
+    height: 40px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    background-color:rgb(112, 158, 143, 0.5);
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 10px;
+
+
+}
+
+h2, h3, h4 {
+    color:rgb(90, 42, 42);
+}
+
+::selection{
+    background-color: pink;
+}
+
+
+
+
+/*transitions*/
+
+.circle {
+    width: 180px;
+    height: 180px;
+    background-color: #9385b9;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    transition: background-color 0.3s, border-radius 0.25s ;
+    transition-timing-function: ease-in;
+    margin: auto;
+
+    transform: translatex(200px);
+    
+}
+
+.circle:hover {
+    width: 180px;
+    height: 180px;
+    background-color:rgb(112, 158, 143);
+    border-radius: 12%;
+    position: absolute;
+    top: 60px;
+}
+
+
+#kurthist {
+    width: 350px;
+    height: 140px;
+    background-color:rgb(148, 128, 128);
+    border-width: 2px;
+    border-color: rgb(90, 42, 42);
+    border-style: solid;
+
+    box-sizing: border-box;
+
+    border-left-color: black;
+    border-left-width: 5px;
+    border-radius: 3%;
+   
+    padding:7px;
+   
+    display: inline-block;
+    opacity: 0.95;
+
+    position: absolute;
+    top: 300px;
+    left: 815px;
+
+    transform: scale(1.2);
+  
+}
+
+
+#currentkurt {
+    width: 350px;
+    height: 140px;
+    background-color:rgb(148, 128, 128);
+    border-width: 2px;
+    border-color: rgb(90, 42, 42);
+    border-style: solid;
+
+    box-sizing: border-box;
+
+    border-left-color: black;
+    border-left-width: 5px;
+    border-radius: 3%;
+   
+    padding:7px;
+   
+    display: inline-block;
+    opacity: 0.95;
+
+    position: absolute;
+    top: 475px;
+    left: 815px;
+
+    transform: skew(10deg);
+
+
+}
+
+#college {
+    width: 350px;
+    height: 140px;
+    background-color:rgb(148, 128, 128);
+    border-width: 2px;
+    border-color: rgb(90, 42, 42);
+    border-style: solid;
+
+    box-sizing: border-box;
+
+    border-left-color: black;
+    border-left-width: 5px;
+    border-radius: 3%;
+   
+    padding:7px;
+   
+    display: inline-block;
+    opacity: 0.95;
+
+    position: absolute;
+    top: 635px;
+    left: 815px;
+
+
+    transform-origin: top left;
+    transform: rotate(2deg);
+}
+
+
+
+footer {
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: maroon;
+}
+
+
+img {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 1000px;
+
+}
+
+nav {
+    width:fit-content;
+    position: fixed;
+    
+}
+
+li {
+    background-color: rgb(207, 136, 136);
+    width: 75px;
+    padding-left: 5px;
+    opacity: 0.7;
+}
+
+aside {
+    color:rgb(50, 50, 139);
+}
+
+section {
+    color: rgb(48, 48, 112);
+    font-size: 50px;
+    border: 2px solid rgb(90, 42, 42);
+    border-radius: 4px;
+    width: 600px;
+    display: inline-block;
+    background-color: rgb(189, 189, 189);
+    opacity: 0.95;
+
+    transform: scale(0.85);
+
+}
+
+textarea {
+    background-color:rgb(207, 136, 136);
+    opacity: 0.7;
+}
+
+::placeholder {
+    color:black;
+}
+
+
+
+a {
+    color:rgb(50, 50, 139);
+    
+}
+
+#backtoprofile {
+    margin-left: 1055px;
+}
+
+
+a:hover {
+    color: red
+}
+
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    background-color:rgb(148, 128, 128) ;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+button:hover {
+    background-color: rgb(166, 212, 197);
+    color:#482E8F;
+    transform: translateY(-0.10em);
+
+}
+

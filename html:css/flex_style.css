@@ -1,0 +1,67 @@
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: rgb(11, 58, 65);
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid grey;
+    
+    display: flex;     /*  first thing to do in flex */ 
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: center;
+      /*
+        justify-content: space-evenly;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: center;
+        justify-content: flex-start;
+        justify-content: flex-end;
+     */
+        flex-wrap: wrap;        /*spills over down page when page gets smaller*/
+     /* flex-wrap: wrap-reverse;  changes axis
+        lex-wrap: nowrap;
+    */
+
+
+    align-items: flex-start;
+    /* align-items: flex-start;
+        align-items: flex-end;
+        align-items: baseline;    for text inside box
+        align-items: center;
+
+*/ 
+    /* align-content: flex-start;   /*only works with wrap */
+   /* align-content: space-between;  /*space between rows */
+  /*  align-content: center;           /* no space between rows */
+
+}
+
+div {
+    height: 200px;
+    flex-basis: 200px;  /*same as width*/
+    flex-grow: 1;      /*makes divs take up rest of space inside of container*/
+/*  max-width: ;width: 300px; */
+/* flex-shrink: 1; */
+}
+
+/*
+ 
+div:nth-of-type(3) {
+    align-self: center;
+}
+
+*/
+
+/* shorthand =   flex: grow shrink basis (units)
+

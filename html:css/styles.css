@@ -1,0 +1,133 @@
+h1, h2 {
+    color: rgb(88, 28, 65);
+}
+
+
+button {
+    color: oldlace;
+    background-color:rgb(1, 124, 142);    
+}
+
+#firstbutt {
+    background-color: oldlace;
+    color: rgb(1, 124, 142);
+}
+
+p {
+    color: rgb(2, 25, 29);
+}
+
+body {
+    background-image: url(running.jpeg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-color: #482E8F;
+}
+
+h3 {
+    color:#482E8F;
+}
+
+label {
+    color: rgb(61, 23, 47);
+}
+
+
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    text-decoration: #482E8F underline;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    background-color: #bd6d6d;
+    opacity: 0.85;
+
+    width: fit-content;
+    
+    position: relative;
+    left: 325px;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-family: Georgia, serif;
+}
+
+p {
+    line-height: 1.3;
+}
+
+
+
+input[type="password"] {
+    color:#7c0808;
+}
+
+
+button:hover {
+    background-color: aquamarine;
+    color:#482E8F;
+}
+
+select:hover {
+    background-color: aquamarine;
+    color:#482E8F;
+}
+
+
+#first {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: lightgrey;
+    margin-left: 450px;
+    padding: 10px;
+}
+
+#second {
+    width: 500px;
+height: 340px;
+border: 5px solid lightcoral;
+border-radius: 10px;
+background-color:rgb(128, 98, 98);
+padding: 10px;
+
+}
+
+
+#third {
+    width: 700px;
+    height: 500x;
+    border: 5px solid pink;
+    border-radius: 10px;
+    background-color:#635b77;
+    padding: 10px;
+
+}
+
+#fourth {
+    width: 800px;
+    height: 600x;
+    border: 5px solid pink;
+    border-radius: 10px;
+    background-color:#b38e8e;
+    padding: 10px;
+
+}
+
+#fifth {
+    width: 1150px;
+    height: 150px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color:#92aa99;
+    padding: 10px;
+
+   
+}
